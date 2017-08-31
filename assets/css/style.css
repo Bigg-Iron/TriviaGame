@@ -1,8 +1,15 @@
 .jumbotron {
     text-align: center;
     margin: 2%;
-    padding: 2%;
+    padding: 5%;
+    background-color: #F0F8FF;
 
+}
+
+.quizTime{
+    text-align: center;
+    margin: 2%;
+    padding: 10%;
 }
 
 .img-responsive {
@@ -11,10 +18,18 @@
     margin-right: auto;
 }
 
-.btn-primary {
-    margin: 2%;
-    padding: 2%;
-    height: 75px;
-    width: 100px;
+.btn-group-lg>.btn, .btn-lg {
+    padding: 35px;
+    font-size: 27px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
 
+body {
+    background-image: url("../../assets/images/ovals.png");
+    
+}
+
+.col-lg-12 {
+    margin-top: 5%;
 }
