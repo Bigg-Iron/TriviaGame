@@ -33,3 +33,16 @@ body {
 .col-lg-12 {
     margin-top: 5%;
 }
+
+.answer {
+    margin: 2%;
+    padding: 2%;
+}
+
+label.btn.btn-primary {
+    padding: 5%;
+}
+
+label.btn.btn-primary.active {
+    padding: 8%;
+}

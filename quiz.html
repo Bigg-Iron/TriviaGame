@@ -17,70 +17,31 @@
 
 <body>
 
-
     <div class="jumbotron quizTime">
         <div class="container">
             <h1>Quiz Time!</h1>
+            <p>A script on this page starts this clock:</p>
+            <p id="timer"></p>
 
-            <div class="row">
-                <!-- /.col-lg-12 -->
-                <div class="col-lg-12 formInput">
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                      <input type="radio" aria-label="...">
-                    </span>
-                        <input type="text" class="form-control" aria-label="...">
-                    </div>
-                    <!-- /input-group -->
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
+            <h2>What is the answer to the first question?</h2>
+            <div class="btn-group answer" data-toggle="buttons">
+                
+                <label class="btn btn-primary active">
+                      <input type="radio" name="options" id="option1" autocomplete="off" checked> Answer A
+                    </label>
 
-            <div class="row">
-                <!-- /.col-lg-12 -->
-                <div class="col-lg-12 formInput">
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                          <input type="radio" aria-label="...">
-                        </span>
-                        <input type="text" class="form-control" aria-label="...">
-                    </div>
-                    <!-- /input-group -->
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
+                <label class="btn btn-primary">
+                      <input type="radio" name="options" id="option2" autocomplete="off"> Answer B
+                    </label>
 
-            <div class="row">
-                <!-- /.col-lg-12 -->
-                <div class="col-lg-12 formInput">
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                              <input type="radio" aria-label="...">
-                            </span>
-                        <input type="text" class="form-control" aria-label="...">
-                    </div>
-                    <!-- /input-group -->
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
+                <label class="btn btn-primary">
+                      <input type="radio" name="options" id="option3" autocomplete="off"> Answer C
+                    </label>
 
-            <div class="row">
-                <!-- /.col-lg-12 -->
-                <div class="col-lg-12 formInput">
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                                  <input type="radio" aria-label="...">
-                                </span>
-                        <input type="text" class="form-control" aria-label="...">
-                    </div>
-                    <!-- /input-group -->
-                </div>
-                <!-- /.col-lg-12 -->
+                <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option4" autocomplete="off"> Answer D
+                          </label>
             </div>
-            <!-- /.row -->
 
 
 
@@ -106,10 +67,22 @@
 
 
 
-     <!-- Scripts -->
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery.js"></script>    
+
+
+
+
+
+
+
+    <!-- Scripts -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- My javaScript -->
     <script src="assets/javascript/app.js"></script>
+
 </body>
 
 </html>
