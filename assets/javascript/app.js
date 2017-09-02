@@ -1,14 +1,13 @@
 $(document).ready(function () {
 
-    console.log("hello console!");
-
-
+    // Clock
     var clock = setInterval(myTimer, 1000);
 
     function myTimer() {
         var d = new Date();
         document.getElementById("timer").innerHTML = d.toLocaleTimeString();
     }
+
 
     // Question 1
     $( "#correct1" ).on('change',function() {
