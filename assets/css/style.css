@@ -34,15 +34,7 @@ body {
     margin-top: 5%;
 }
 
-.answer {
+.btn-primary {
     margin: 2%;
-    padding: 2%;
-}
-
-label.btn.btn-primary {
-    padding: 5%;
-}
-
-label.btn.btn-primary.active {
-    padding: 8%;
+    padding: 3%;
 }

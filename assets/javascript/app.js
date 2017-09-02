@@ -10,8 +10,6 @@ $(document).ready(function () {
         document.getElementById("timer").innerHTML = d.toLocaleTimeString();
     }
 
-   
-
 
 
 
