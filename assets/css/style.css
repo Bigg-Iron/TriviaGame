@@ -1,7 +1,5 @@
 .jumbotron {
     text-align: center;
-    margin: 2%;
-    padding: 5%;
     background-color: #F0F8FF;
 
 }
@@ -34,7 +32,11 @@ body {
     margin-top: 5%;
 }
 
+.btn-group {
+    display: -webkit-inline-box;
+}
+
 .btn-primary {
     margin: 2%;
-    padding: 3%;
+    padding: 1.5%;
 }
