@@ -10,7 +10,26 @@ $(document).ready(function () {
         document.getElementById("timer").innerHTML = d.toLocaleTimeString();
     }
 
-    $( "#correct" ).on('change',function() {
+    // Question 1
+    $( "#correct1" ).on('change',function() {
+        alert( "Correct!" );
+    
+    });
+
+    // Question 2
+    $( "#correct2" ).on('change',function() {
+        alert( "Correct!" );
+    
+    });
+
+    // Question 3
+    $( "#correct3" ).on('change',function() {
+        alert( "Correct!" );
+    
+    });
+
+    // Question 4
+    $( "#correct4" ).on('change',function() {
         alert( "Correct!" );
     
     });
