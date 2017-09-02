@@ -10,7 +10,10 @@ $(document).ready(function () {
         document.getElementById("timer").innerHTML = d.toLocaleTimeString();
     }
 
-
+    $( "#correct" ).on('change',function() {
+        alert( "Correct!" );
+    
+    });
 
 
 
