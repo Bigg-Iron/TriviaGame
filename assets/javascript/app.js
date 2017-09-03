@@ -28,7 +28,7 @@ $(document).ready(function () {
     // =======================================================================
 
     //  Set our number counter to 30.
-    var number = 5;
+    var number = 30;
 
     //  Variable that will hold our interval ID when we execute
     //  the "run" function
