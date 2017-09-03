@@ -12,16 +12,17 @@ $(document).ready(function () {
     }
     
 
-    // Question correct
-    $("#correct").on('change', function () {
+    // Question correct 
+    $(".correct").on('change', function () {
         score.correct++;
         console.log("Correct!");
     });
-    // Question incorrect
-    $("#incorrect").on('change', function () {
+    // Question incorrect 
+    $(".incorrect").on('change', function () {
         score.incorrect++;
         console.log("Try Again!")
     });
+
 
 
     // TIMER
